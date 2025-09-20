@@ -1,16 +1,13 @@
 import { Tabs } from "expo-router";
-import { StatusBar } from "expo-status-bar";
 
 export default function RootLayout() {
   return (
-    <>
-      <StatusBar style="auto" />
-      <Tabs screenOptions={{ headerShown: true }}>
-        <Tabs.Screen name="sleep" options={{ title: "Sleep" }} />
-        <Tabs.Screen name="food" options={{ title: "Food" }} />
-        <Tabs.Screen name="vitals" options={{ title: "Vitals" }} />
-        <Tabs.Screen name="recipes" options={{ title: "Recipes" }} />
-      </Tabs>
-    </>
+    <Tabs screenOptions={{ headerShown: true }}>
+      <Tabs.Screen name="index" options={{ title: "Home" }} />
+      <Tabs.Screen name="nutrition" options={{ title: "Nutrition" }} />
+      <Tabs.Screen name="vitals" options={{ title: "Vitals" }} />
+      <Tabs.Screen name="recipes" options={{ title: "Recipes" }} />
+      <Tabs.Screen name="communityForum" options={{ title: "Community" }} />
+    </Tabs>
   );
 }
