@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Otto",
+    "slug": "otto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": { "backgroundColor": "#ffffff" },
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": ["expo-router"],
+    "scheme": "otto"
+  }
+}
